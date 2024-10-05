@@ -266,6 +266,7 @@ nav ul .focus::after {
 
 .content .notify {
     background: #23192B;
+    border-left: #AC62E7 solid 14px !important;
     border: #5B1890 1px solid;
     border-radius: 10px;
     padding: 17px 32px;
@@ -281,6 +282,7 @@ nav ul .focus::after {
     font-size: 16px;
 
 }
+/*
 
 .content .notify::before {
     content: "";
@@ -295,6 +297,7 @@ nav ul .focus::after {
     z-index: 1;
     background: #AC62E7;
 }
+*/
 
 @media screen and (max-device-width: 1560px) {
     nav{
