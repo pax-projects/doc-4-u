@@ -16,7 +16,7 @@
 						{
 							"name": "Body",
 							"language": "json",
-							"code": "{\n\tname: {doc4u.value},\n\thasPrivateShowerroom: {doc4u.value},\n\t...",
+							"code": "{\n\tname: {doc4u.value},\n\thasPrivateShowerroom: {doc4u.value},\n\t...}",
 							"values": [
 								{"value": "String", "color": "#FFE27B"},
 								{"value": "Boolean", "color": "#7BCFFF"}
@@ -25,14 +25,14 @@
 						{
 							"name": "Params",
 							"language": "json",
-							"code": "{\n\theaders: {\n\t\ttoken: {doc4u.value} + {doc4u.value}}\n\t}",
+							"code": "{\n\theaders: {\n\t\ttoken: {doc4u.value} + {doc4u.value}}\n\t}\n}",
 							"values": [
 								{"value": "\"Bearer \"", "color": "#FFE27B"},
 								{"value": "token", "color": "#E76262"}
 							]
 						}
 					],
-					"constrains": [
+					"constraints": [
 						{
 							"text": ["The `{doc4u.value}` parameters has to belong to the user database id column."],
 							"values": [

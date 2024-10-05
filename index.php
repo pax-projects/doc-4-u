@@ -66,7 +66,8 @@ class Main {
 	 * @version 1.0
 	*/
 	public function render(): void {
-		// $dataForHTML = self::$file;
+		$data = self::$data;
+		$index = intval(str_replace("/", '', $_SERVER["REQUEST_URI"]));
 		require_once("doc.html.php"); 
 	}
 }
