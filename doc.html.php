@@ -171,6 +171,9 @@
             <p>The `id` parameters has to belong to the user database id column.</p>
         </div>
 
-
+        <pre>
+              <span class="preLabel">Params</span>
+            <!--YOUR JSON HERE-->
+          </pre>
 </body>
 </html>
