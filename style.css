@@ -92,7 +92,9 @@ pre {
     box-sizing: border-box;
     position: relative;
 }
-
+.preForRes{
+    width: 100%;
+}
 .preLabel {
     font-size: 14px;
     color: #8E8E8E;
