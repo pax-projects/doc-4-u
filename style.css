@@ -93,6 +93,8 @@ pre {
     padding: 25px;
     box-sizing: border-box;
     position: relative;
+
+    color: white;
 }
 
 .preForRes {
