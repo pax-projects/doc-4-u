@@ -2,7 +2,7 @@
 
 class Main {
 	function render(): void {
-		require_once("doc.html"); 
+		require_once("doc.html.php");
 	}
 }
 
