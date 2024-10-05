@@ -1,8 +1,10 @@
 <?php 
-require_once("doc.html");
 
 class Main {
-	function render(): null {
-
+	function render(): void {
+		require_once("doc.html"); 
 	}
 }
+
+$app = new Main();
+$app->render();
