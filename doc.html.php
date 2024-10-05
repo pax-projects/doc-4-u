@@ -172,7 +172,7 @@
         </div>
 
         <pre class="preForRes">
-              <span class="preLabel">Params</span>
+              <span class="preLabel">Res</span>
             <!--YOUR JSON HERE-->
           </pre>
 </body>

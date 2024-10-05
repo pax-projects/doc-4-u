@@ -284,3 +284,15 @@ width: 100%;
     z-index: 1;
     background: #AC62E7;
 }
+
+@media screen and (max-device-width: 1560px) {
+nav a{
+
+    font-size: 13px;
+}
+}
+@media screen and (max-device-width: 1400px) {
+    nav a {
+        font-size: 11px;
+    }
+}
