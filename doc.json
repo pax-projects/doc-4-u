@@ -32,7 +32,7 @@
 							]
 						}
 					],
-					"constrains": [
+					"constraints": [
 						{
 							"text": ["The `{doc4u.value}` parameters has to belong to the user database id column."],
 							"values": [
