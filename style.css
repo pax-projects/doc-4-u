@@ -241,14 +241,14 @@ nav ul .focus::after {
 }
 
 .content .description {
-    background: var(--grey-background);
     width: 100%;
     padding: 17px 30px;
     box-sizing: border-box;
     border-radius: 10px;
-    border: 2px solid #4D2962;
-    background: #181818;
+    background: linear-gradient(var(--grey-background), var(--grey-background)) padding-box,
+    linear-gradient(35deg, #482B5F, #AC62E7) border-box;
 
+    border: 2px solid transparent;
     margin-block: 20px;
 }
 
