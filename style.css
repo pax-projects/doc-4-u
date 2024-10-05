@@ -74,9 +74,11 @@ h4 {
     margin: 2px 0px 10px 0px;
 
 }
-p{
+
+p {
     margin: 0;
 }
+
 hr {
     border: #242424 1px solid;
     width: 100%;
@@ -92,9 +94,11 @@ pre {
     box-sizing: border-box;
     position: relative;
 }
-.preForRes{
+
+.preForRes {
     width: 100%;
 }
+
 .preLabel {
     font-size: 14px;
     color: #8E8E8E;
@@ -206,16 +210,19 @@ nav ul .focus::after {
     overflow-x: hidden;
 
 }
-.content .mentions{
+
+.content .mentions {
     display: flex;
     flex-direction: column;
     position: absolute;
     top: 20px;
     right: 20px;
 }
-.content .mentions{
+
+.content .mentions {
     color: #494949;
 }
+
 .content .requestData {
     display: flex;
     flex-direction: row;
@@ -255,23 +262,25 @@ nav ul .focus::after {
     width: 100%;
 }
 
-.content .notify{
+.content .notify {
     background: #23192B;
-    border :#5B1890 1px solid;
+    border: #5B1890 1px solid;
     border-radius: 10px;
     padding: 17px 32px;
     box-sizing: border-box;
     position: relative;
     clip-path: border-box;
-width: 100%;
+    width: 100%;
     margin-block: 20px;
 }
-.content .notify p{
+
+.content .notify p {
     color: #D5A7F9;
     font-size: 16px;
 
 }
-.content .notify::before{
+
+.content .notify::before {
     content: "";
     width: 10px;
     height: 100%;
@@ -286,13 +295,23 @@ width: 100%;
 }
 
 @media screen and (max-device-width: 1560px) {
-nav a{
-
-    font-size: 13px;
-}
-}
-@media screen and (max-device-width: 1400px) {
-    nav a {
-        font-size: 11px;
+    nav{
+        width: 22vw;
     }
+    nav a {
+
+        font-size: 13px;
+    }
+
+    .content {
+        width: 78vw;
+    }
+}
+
+@media screen and (max-device-width: 1400px) {
+    .scrollContainerNav {
+
+        padding-inline: 17px;
+    }
+
 }
